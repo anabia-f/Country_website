@@ -1,0 +1,311 @@
+/* homepage */
+
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  background-color:rgb(88,163,104);
+  color: white;
+}
+.container{
+  display:flex;
+}
+
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  transition: 0.7s;
+  font-family: "Monospace";
+}
+nav a:hover{
+  background-color:rgb(107, 191, 125);
+  color:white;
+  border-style: solid;
+  transition: 0.1s;
+}
+#banner{
+  display: flex;
+  background-image: url(images/beach.jpeg);
+  font-size: 35px;
+  color:white;
+  font-family: "Monospace";
+  background-size: cover;
+  padding:200px;
+  justify-content:center;
+  align-items:center;
+}
+#body{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(88,163,104);
+	background-size:cover
+	border-style: solid;
+	border: black;
+	border-radius: 2px;
+}
+
+#body p{
+	text-align: center;
+	color: white;
+	font-size: 15pt;
+	font-family: "Monospace";
+}
+
+
+#footer{
+  background-color: rgb(19,119, 176);
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+  width:100px;
+}
+
+/* homepage end */
+
+/* attractions page */
+#ss{
+	background-color: rgb(95, 139, 201);
+}
+
+#places h2{
+	font-family: "Monospace";
+	text-align: center;
+	font-size: 35pt;
+}
+#beaches .desc{
+	font-family: "Monospace";
+}
+
+#beaches{
+	display: flex;
+	align-items: baseline;
+	flex-direction: row;
+	padding-top: 45px;
+	margin: 19px;
+}
+
+#beaches .a{
+	border: darkred;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#beaches .b{
+	border: darkgreen;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#beaches .c{
+	border: gray;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#beachess{
+	display:flex;
+	align-items: baseline;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+#beachess img{
+	padding:20px;
+	transition:1s;
+	transition-timing-function: ease-in-out;
+}
+
+#beachess .desc{
+	font-family: "Monospace";
+}
+
+#beachess .d{
+	border:rgb(73,90,166);
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#beachess .e{
+	border: rgb(75, 188, 126);
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#beachess .f{
+	border: rgb(138, 86, 168);
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+.f img{
+	transform: scale(1.1);
+}
+
+/* attractions page end */
+
+/* cuisine page */
+#display3{
+  background-color: rgb(217, 232, 144);
+  background-size: cover;
+  justify-content: space-around;
+  padding-left: 150px;
+  color: black;
+  font-family: "Monospace";
+  text-align: center;
+  float: left;
+}
+#display3 div{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 100px;
+  border-color: black;
+  border-radius: 35px;
+  border-style: solid;
+  background-size: cover;
+}
+#color{
+  background-color: rgb(217, 232, 144);
+}
+#display3 h2{
+	font-size: 35pt;
+}
+#images{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  background-size: cover;
+  background-color: rgb(217, 232, 144);
+}
+#images img{
+  background-color: rgb(217, 232, 144);
+  background-size: cover;
+  width: 400px;
+  padding-top: 100px;
+  padding-right: 100px;
+  filter: blur(20px);
+}
+
+#images img:hover{
+  filter: blur(0px);
+    transition: 1s;
+}
+ /* cuisine page end */
+ 
+ /* culture & traditions page */
+ body{
+	background-color: rgb(107, 150, 110);
+}
+
+#cultures h2{
+	font-family: "Monospace";
+	text-align: center;
+	font-size: 35pt;
+}
+
+#culture .header{
+	font-family: "Monospace";
+}
+
+#culture .desk{
+	font-family: "Monospace";
+}
+
+#culture{
+	display: flex;
+	align-items: baseline;
+	flex-direction: row;
+	padding-top: 45px;
+	margin: 19px;
+}
+
+#culture .x{
+	border: yellow;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#culture .y{
+	border: orange;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#culture .z{
+	border: lavender;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#tradition{
+	display:flex;
+	align-items: baseline;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+#tradition img{
+	padding:20px;
+	transition:1s;
+	transition-timing-function: ease-in-out;
+}
+
+#tradition .desk{
+	font-family: "Monospace";
+}
+
+#tradition .header{
+	font-family: "Monospace";
+}
+
+#tradition .xx{
+	border: rgb(73,90,166);
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#tradition .yy{
+	border: rgb(75, 188, 126);
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+#tradition .zz{
+	border: darkred;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 19px;
+}
+
+.zz img{
+	transform: scale(1.1);
+}
+/* culture & traditions page end */
